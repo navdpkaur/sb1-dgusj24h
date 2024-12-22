@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>The Audrey Rose Letters</title>
+    <link rel="stylesheet" href="./styles/base.css">
+    <link rel="stylesheet" href="./styles/product.css">
+    <link rel="stylesheet" href="./styles/carousel.css">
+    <link rel="stylesheet" href="./styles/payment.css">
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="product-content">
+            <div class="image-carousel">
+                <img src="https://placehold.co/600x400" alt="The Audrey Rose Letters" class="main-image">
+                <div class="thumbnail-section">
+                    <button class="scroll-button prev" aria-label="Previous image"></button>
+                    <div class="thumbnail-container">
+                        <img src="https://placehold.co/600x400" alt="Thumbnail 1" class="thumbnail active">
+                        <img src="https://placehold.co/600x400" alt="Thumbnail 2" class="thumbnail">
+                        <img src="https://placehold.co/600x400" alt="Thumbnail 3" class="thumbnail">
+                        <img src="https://placehold.co/600x400" alt="Thumbnail 4" class="thumbnail">
+                        <img src="https://placehold.co/600x400" alt="Thumbnail 5" class="thumbnail">
+                        <img src="https://placehold.co/600x400" alt="Thumbnail 6" class="thumbnail">
+                    </div>
+                    <button class="scroll-button next" aria-label="Next image"></button>
+                </div>
+            </div>
+
+            <div class="product-details">
+                <h1 class="product-title">The Audrey Rose Letters</h1>
+                <p class="product-subtitle">Unforgettable love: Audrey Rose & Corporal Charlie - a WWII tale of connection & courage</p>
+                
+                <div class="rating">
+                    <div class="stars">★★★★★</div>
+                    <span class="rating-text">4.9/5</span>
+                </div>
+
+                <div class="features">
+                    <div class="feature-item">
+                        <span class="feature-icon">♥</span>
+                        <span>WW2 Romance</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="feature-icon">✉</span>
+                        <span>Story Told Through 24 Letters</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="feature-icon">📬</span>
+                        <span>Delivered 2x per month</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="feature-icon">🎁</span>
+                        <span>Includes postcards, maps, posters stickers, and more!</span>
+                    </div>
+                </div>
+
+                <div class="payment-options">
+                    <h2>Payment Options:</h2>
+                    <div class="payment-cards">
+                        <div class="payment-card" data-type="monthly">
+                            <h3>Monthly</h3>
+                            <div class="price">
+                                <span class="current-price">$11.99</span>
+                                <span class="compare-price">$12.95</span>
+                            </div>
+                            <div class="price-details">Per Month<br>For 12 Months</div>
+                        </div>
+
+                        <div class="payment-card" data-type="prepaid">
+                            <div class="savings-badge">$55 OFF</div>
+                            <h3>Prepaid</h3>
+                            <div class="price">
+                                <span class="current-price">$99.99</span>
+                                <span class="compare-price">$155.40</span>
+                            </div>
+                            <div class="price-details">One time Payment</div>
+                        </div>
+                    </div>
+                </div>
+
+                <button class="add-to-cart-button">ADD TO CART</button>
+            </div>
+        </div>
+    </div>
+    <script type="module" src="./js/carousel.js"></script>
+    <script type="module" src="./js/payment.js"></script>
+    <script type="module" src="./js/main.js"></script>
+</body>
+</html>
